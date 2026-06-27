@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+*.xpt
+*.csv
+*.xlsx
+
+# Outputs
+outputs/
+*.png
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
