@@ -52,10 +52,13 @@ For the exact tested Windows environment:
 
 ```powershell
 pip install -r requirements-lock.txt
+```
 
 For a smaller and more portable environment:
 
+```powershell
 pip install -r requirements.txt
+```
 
 ### macOS or Linux
 
