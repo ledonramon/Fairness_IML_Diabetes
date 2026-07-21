@@ -1,4 +1,4 @@
-# When Explanations Explain Labels
+# When Model Interpretations Explain Labels:
 
 ## Target Definition, Interpretability, and Fairness in Diabetes Prediction
 

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the repository and associated manuscript."
-title: "When Explanations Explain Labels: Analysis Repository"
+title: "When Model Interpretations Explain Labels: Analysis Repository"
 type: software
 authors:
   - family-names: "Leuenberger"
@@ -8,7 +8,7 @@ authors:
 version: "1.0.0"
 preferred-citation:
   type: article
-  title: "When Explanations Explain Labels: Target Definition, Interpretability, and Fairness in Diabetes Prediction"
+  title: "When Model Interpretations Explain Labels: Target Definition, Interpretability, and Fairness in Diabetes Prediction"
   authors:
     - family-names: "Leuenberger"
       given-names: "Ramon"
