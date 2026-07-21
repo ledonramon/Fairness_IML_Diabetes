@@ -1,23 +1,36 @@
-# Python environment
+# Python environments and caches
 .venv/
+venv/
+env/
+.env
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+outputs/executed_notebooks/
 
-# Data files
-data/raw/
-data/processed/
-*.xpt
-*.csv
-*.xlsx
-
-# Outputs
-outputs/
-*.png
-*.pdf
-
-# System files
+# Operating-system files
 .DS_Store
 Thumbs.db
+
+# NHANES and derived participant-level data
+# Keep directory placeholders but do not commit raw or processed data.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Fitted models and intermediate analysis artifacts
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/final/*
+!outputs/final/.gitkeep
