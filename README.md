@@ -137,7 +137,7 @@ The analytical pipeline preserves:
 - target-specific and threshold-specific subgroup analyses;
 - direct generation of manuscript tables and figures from analysis outputs.
 
-The MEC examination weights are used for descriptive complete-case point estimates and are not presented as fully survey-design-adjusted inference.
+The NHANES phlebotomy weight (WTPH2YR) is used for descriptive complete-case point estimates and are not presented as fully survey-design-adjusted inference.
 
 ## Notebook output policy
 
